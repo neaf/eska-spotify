@@ -1,0 +1,9 @@
+[project]
+name = "eska-spotify"
+version = "0.1.0"
+description = "Append tracks played on Radio Eska Dwa to a Spotify playlist"
+requires-python = ">=3.10"
+dependencies = ["spotipy", "requests"]
+
+[tool.uv]
+package = false
